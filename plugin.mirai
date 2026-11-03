@@ -1,0 +1,6 @@
+{
+  "name": "map_convert",
+  "version": "0.1.0",
+  "dependencies": ["valve220"],
+  "parts": ["Editor"]
+}
