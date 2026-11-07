@@ -5,8 +5,8 @@ standard Quake maps. Each format converts its file to a Valve 220 map in memory,
 [valve220](https://github.com/5hif7y/mirai-valve220) imports that: the brushes keep their textures
 and their texture axes.
 
-It needs `valve220`. BSPs of Quake and GoldSrc are in [bsp_decompile](https://github.com/5hif7y/mirai-bsp-decompile),
-a separate plugin under the GPL.
+It needs `valve220`. BSPs of Quake and GoldSrc are in
+[bsp_decompile](https://github.com/5hif7y/mirai-bsp-decompile), a separate plugin.
 
 ## Install
 
