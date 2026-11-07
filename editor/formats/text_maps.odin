@@ -4,7 +4,7 @@ import "core:fmt"
 import "core:math"
 import "core:strconv"
 import "core:strings"
-import mapfile "project:plugins/valve220/editor/mapfile"
+import mapfile "../../../valve220/editor/mapfile"
 
 // ---- VMF ----------------------------------------------------------------
 

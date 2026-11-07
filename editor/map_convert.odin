@@ -9,9 +9,9 @@ import "mirai:editor/api"
 import "mirai:project"
 import "mirai:std/base"
 import "mirai:std/serial"
-import formats "project:plugins/map_convert/editor/formats"
-import valvemap "project:plugins/valve220/editor/loader"
-import mapfile "project:plugins/valve220/editor/mapfile"
+import formats "./formats"
+import valvemap "../../valve220/editor/loader"
+import mapfile "../../valve220/editor/mapfile"
 
 // Maps of other engines in the import of the editor: each format converts its
 // file to Valve 220 in memory and the loader of valve220 reads that, so a map

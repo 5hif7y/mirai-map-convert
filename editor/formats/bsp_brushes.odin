@@ -3,7 +3,7 @@ package map_convert_formats
 import "core:fmt"
 import "core:strconv"
 import "core:strings"
-import mapfile "project:plugins/valve220/editor/mapfile"
+import mapfile "../../../valve220/editor/mapfile"
 
 // Compiled maps that keep their brushes: the BSP of Quake III (IBSP 46, and 47
 // of Quake Live and Enemy Territory) and of Source (VBSP 19 to 21). Their

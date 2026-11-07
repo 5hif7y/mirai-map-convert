@@ -1,7 +1,7 @@
 package map_convert_formats
 
 import "core:strings"
-import mapfile "project:plugins/valve220/editor/mapfile"
+import mapfile "../../../valve220/editor/mapfile"
 
 // Picks the converter by the first bytes of the file. The BSPs of Quake and
 // GoldSrc are not here: they are decompiled, in the plugin bsp_decompile.

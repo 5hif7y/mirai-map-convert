@@ -5,7 +5,7 @@ import "core:os"
 import "core:strings"
 import "core:testing"
 import importer "mirai:cook/import"
-import valve220 "project:plugins/valve220/editor"
+import valve220 "../../valve220/editor"
 
 @(private="file")
 temp_folder :: proc(name:string) -> string {
