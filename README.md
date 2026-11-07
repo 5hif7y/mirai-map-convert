@@ -10,9 +10,13 @@ a separate plugin under the GPL.
 
 ## Install
 
+It is not in the catalog on its own: there it is part of
+[brush_maps](https://github.com/5hif7y/mirai-brush-maps), which joins the map plugins in one install
+(`mirai plugin add brush_maps`). Installed alone, by its address, in the folder of a Mirai project:
+
 ```sh
-mirai plugin add valve220
-mirai plugin add map_convert
+mirai plugin add https://github.com/5hif7y/mirai-valve220.git
+mirai plugin add https://github.com/5hif7y/mirai-map-convert.git
 ```
 
 ## Formats
